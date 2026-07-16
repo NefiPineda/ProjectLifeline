@@ -6,3 +6,18 @@ body{
   margin-top: 100px;
 
 }
+
+.textbox {
+    width: 500px;
+    height: 250px;
+    margin: 20px auto;      /* Centers the box */
+    padding: 10px;
+
+    border: 2px solid black;
+    background-color: #f8f8f8;
+
+    overflow-y: auto;       /* Vertical scrollbar */
+    overflow-x: hidden;     /* Hide horizontal scrollbar */
+
+    text-align: left;       /* Makes paragraphs easier to read */
+}
